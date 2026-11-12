@@ -1,0 +1,42 @@
+:host {
+  display: block;
+  min-height: 100vh;
+}
+
+.shell-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem 2rem;
+  padding: 0.75rem 1.5rem;
+  background: #0b3d5c;
+  color: #fff;
+}
+
+.shell-title {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.shell-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.shell-nav a {
+  padding: 0.35rem 0.75rem;
+  border-radius: 4px;
+  color: #d7e9f5;
+  text-decoration: none;
+}
+
+.shell-nav a:hover,
+.shell-nav a.active {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+}
+
+.shell-main {
+  padding: 1.5rem;
+}

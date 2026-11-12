@@ -1,0 +1,12 @@
+<header class="shell-header">
+  <h1 class="shell-title">{{ title }}</h1>
+  <nav class="shell-nav" aria-label="Main navigation">
+    @for (link of navLinks; track link.path) {
+      <a [routerLink]="link.path" routerLinkActive="active">{{ link.label }}</a>
+    }
+  </nav>
+</header>
+
+<main class="shell-main">
+  <router-outlet />
+</main>

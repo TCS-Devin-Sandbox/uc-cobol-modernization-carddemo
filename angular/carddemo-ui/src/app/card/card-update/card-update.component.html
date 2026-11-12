@@ -1,0 +1,11 @@
+<section class="screen">
+  <h2 class="screen-title">Update Credit Card Details</h2>
+  <p class="screen-meta">BMS map COCRDUP &middot; program COCRDUPC &middot; transaction CCUP</p>
+  <p>Edit card name, status and expiry date.</p>
+  @if (cardNumber()) {
+    <p class="screen-param">
+      cardNumber: <strong>{{ cardNumber() }}</strong>
+    </p>
+  }
+  <p class="screen-placeholder">Placeholder &mdash; screen not yet implemented.</p>
+</section>
